@@ -32,7 +32,7 @@ class YSJPickerView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.groupTableViewBackgroundColor()
-        _pickerDataSource = NSArray.init(objects: "中国大陆身份证","中国护照","香港身份证","澳门身份证","台湾身份证","港澳居民来往内地通行证","台湾居民来往内地通行证")
+        _pickerDataSource = NSArray.init(objects: "111111","22222","33333","44444","55555","666666","777777")
         
         
         pickerView = UIPickerView.init(frame: CGRectMake(0, 40, kScreenWidth, 200))
